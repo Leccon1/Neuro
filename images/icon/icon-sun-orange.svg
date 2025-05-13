@@ -1,0 +1,12 @@
+<svg width="32.000000" height="30.000000" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_2_670" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image2_67_0" transform="matrix(0.016667,0,0,0.017778,0,-0.006667)"/>
+		</pattern>
+		<image id="image2_67_0" width="60.000000" height="57.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA5CAYAAABqMUjBAAAABHNCSVQICAgIfAhkiAAAAtRJREFUaIHtm01SE0EYht+vh8HoavQAkhsY3VEGK+MJAlVWTbmivACQFYWUDFXys4MTSLAsflbiCSZAlS7FE5AbMBsEbDKfm4AmMZqZSfcQ7GeVTLq/et/qTk//fE1QROCXHetiuETW0IjgqMCgAhgOCPmWgow6CHVihBH4GyLULnPnR66/F6rQRf0MFvhlZ/jHvSkmLgEopQxXA1CVNu+7/k49Zaxr+mL4cNYrkUULSG+yGzVu8OLY6k4tbaBUhjUYbYHBxwJi5unS1qekMRIZDnwvb0vagCajnVBV2tFikq4e2/Dn+ZdTDYZPYCdu3T5zAmCmuLS9GadSz4YDv+zY8u4CgOm4ypTC1lpx+UOl1+I9GW524Y8AComFqeWrtHmily4+1FO48Dy0nNx4WlUqkeG5kve2YdDo+h8+mPMmCW3TwAGBiI67jd5/NHww500Kog21spTCiFAprmyvt//QYbg5IgcY0Nb9jRNp85P2kVu0l7Ik+Rh8swBw35b0rv1hSws358aBPk3KYSZ+Pvb216KjpYXJwoJ2SWohYnrT8uDqQ+C/KNjSWtOvSTXEssGv3NX+rakNBkN2EAB8mfXyGevQwujqTp1u4bu3G0ygcQGR1b6Udiji6LGAoEdZK9GFIHooiDPfjNMGgwoCTPmsheiCETmi46znFkOgfMfy0GAwGAyG7Pj/VkuBP+nY8uIkazEaYHl69kC4fjUEuJa1Gg3U3PW9sDnTosQ5EwMCA9gEmvvS0r5TzVKNDmSD94Gm4dverRmoXu1LXy8emLCYmSK1MIjfX31pOVs6eO1VBTCiX5M6ooiPnq3szmStw2AwGAwGQ4xs2sN5r0RMNzIHhEHHl6ffK+76v+9JxMqXPpz3/BtoOpCnZxO9mAUSJIgHs17eFhTcgBMLBlApLnVm2/2NxHceMm7tQDJV3OWto7gVU13yCKbLTs7JaT99HE1xrecnxk7yncD8pDEAAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="Rectangle" width="32.000000" height="30.000000" fill="url(#pattern_2_670)" fill-opacity="1.000000"/>
+</svg>

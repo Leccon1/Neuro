@@ -1,0 +1,19 @@
+@use 'helpers' as *;
+
+:root {
+	--font-base: Roboto;
+
+	--color-white: #fff;
+	--color-opacity-white: rgba(255, 255, 255, 0.42);
+	--color-black: #000;
+	--color-smoky-white: rgb(240, 250, 247);
+	--color-wheat: rgb(247, 216, 191);
+	--color-azure-blue: rgb(0, 84, 102);
+	--color-light-blue: rgb(19, 192, 215);
+	--color-red: rgb(213, 63, 35);
+	--color-linen: rgb(252, 242, 240);
+	--color-aqumarine: rgb(100, 186, 161);
+	--color-dark-green: rgb(10, 100, 74);
+	--color-orange: rgb(196, 123, 89);
+	--color-gold: rgb(239, 150, 50);
+}

@@ -1,0 +1,102 @@
+/* Reset and base styles */
+* {
+	padding: 0;
+	margin: 0;
+	/* border не рекомендуется сбрасывать глобально */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited,
+a:hover {
+	text-decoration: none;
+	cursor: pointer; /* добавлено для интерактивности */
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit; /* можно задать конкретные размеры при необходимости */
+	font-weight: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+li {
+	list-style-type: none; /* если нужно убрать маркеры у li */
+}
+
+img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Address */
+address {
+	font-style: normal;
+}
+
+/* Form styles */
+input,
+textarea,
+button,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent; /* можно оставить или задать по умолчанию */
+}
+
+input::-ms-clear {
+	display: none; /* скрывает крестик в IE/Edge */
+}
+
+button,
+input[type='submit'] {
+	display: inline-block; /* можно оставить или использовать inline-flex/inline-grid при необходимости */
+	box-shadow: none; /* убирает тень у кнопок в некоторых браузерах */
+	background: none; /* убирает фон по умолчанию */
+	cursor: pointer; /* добавлено для интерактивности */
+}
+
+input[type='file'] {
+	max-width: 100%;
+}
+
+/* Фокус и активное состояние формы */
+input[type='text']:focus,
+textarea[type='text']:focus,
+button[type='button']:focus,
+select:focus {
+	outline: none; /* можно добавить стили фокуса для доступности */
+}

@@ -1,0 +1,29 @@
+@use 'sass:math';
+
+@mixin flex-center($isInline: false) {
+	@if $isInline {
+		display: inline-flex;
+	} @else {
+		display: flex;
+	}
+
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin abs-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+
+@mixin square($size) {
+	width: $size;
+	height: $size;
+}
+
+@mixin rectangle($width: 100px, $height: 50px) {
+	height: $height;
+	width: $width;
+}
