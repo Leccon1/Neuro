@@ -1,0 +1,36 @@
+@use '../helpers/' as *;
+
+.header {
+	background-image: url(../../images/Rectangle-defoult.svg);
+	background-repeat: no-repeat;
+	background-size: auto;
+
+	&__inner {
+		background-color: var(--color-opacity-white);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 26px 45px 26px 45px;
+	}
+
+	&__menu {
+		&-list {
+			display: flex;
+			align-items: center;
+			column-gap: 40px;
+		}
+
+		&-item {
+			display: inline;
+		}
+
+		&-link {
+			font-size: 14px;
+			color: var(--color-black);
+
+      &:hover {
+        text-decoration: underline;
+      }
+		}
+	}
+}
