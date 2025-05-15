@@ -1,12 +1,9 @@
 @use '../helpers/' as *;
 
 .header {
-	background-image: url(../../images/Rectangle-defoult.svg);
-	background-repeat: no-repeat;
-	background-size: auto;
 
 	&__inner {
-		background-color: var(--color-opacity-white);
+		background-color: var(--color-turquoise);
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -28,9 +25,9 @@
 			font-size: 14px;
 			color: var(--color-black);
 
-      &:hover {
-        text-decoration: underline;
-      }
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 }

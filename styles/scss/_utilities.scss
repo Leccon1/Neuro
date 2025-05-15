@@ -1,8 +1,18 @@
 @use 'helpers' as *;
 
-.page {
+.container {
 	max-width: 1440px;
 	margin: 0 auto;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.displayInline {
+  display: inline;
 }
 
 .visually-hidden {

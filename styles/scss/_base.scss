@@ -1,16 +1,12 @@
 @use 'helpers' as *;
 
 body {
-	background-color: #fff;
-
-	@include laptop-above {
-		max-width: 1440px;
-		margin: 0 auto;
-	}
+	background-color: #444;
+	font-family: Roboto;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 button {

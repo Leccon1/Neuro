@@ -1,69 +1,65 @@
 @charset "UTF-8";
 body {
-	background-color: #fff;
-}
-@media (width > 1440.98px) {
-	body {
-		max-width: 1440px;
-		margin: 0 auto;
-	}
+  background-color: #444;
+  font-family: Roboto;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-	all: unset;
-	background: none;
-	border: none;
-	padding: 0;
-	margin: 0;
-	cursor: pointer;
+  all: unset;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/Roboto-Bold.woff2') format('woff2');
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-	font-family: 'Roboto';
-	src: url('/fonts/Roboto-Regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: "Roboto";
+  src: url("/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 :root {
-	--font-base: Roboto;
-	--color-white: #fff;
-	--color-opacity-white: rgba(255, 255, 255, 0.42);
-	--color-black: #000;
-	--color-smoky-white: rgb(240, 250, 247);
-	--color-wheat: rgb(247, 216, 191);
-	--color-azure-blue: rgb(0, 84, 102);
-	--color-light-blue: rgb(19, 192, 215);
-	--color-red: rgb(213, 63, 35);
-	--color-linen: rgb(252, 242, 240);
-	--color-aqumarine: rgb(100, 186, 161);
-	--color-dark-green: rgb(10, 100, 74);
-	--color-orange: rgb(196, 123, 89);
-	--color-gold: rgb(239, 150, 50);
+  --font-base: Roboto;
+  --color-white: #fff;
+  --color-opacity-white: rgba(255, 255, 255, 0.42);
+  --color-black: #000;
+  --color-smoky-white: rgb(240, 250, 247);
+  --color-wheat: rgb(247, 216, 191);
+  --color-turquoise: rgb(134, 173, 182);
+  --color-azure-blue: rgb(0, 84, 102);
+  --color-light-blue: rgb(19, 192, 215);
+  --color-red: rgb(213, 63, 35);
+  --color-linen: rgb(252, 242, 240);
+  --color-aqumarine: rgb(100, 186, 161);
+  --color-dark-green: rgb(10, 100, 74);
+  --color-orange: rgb(196, 123, 89);
+  --color-gold: rgb(239, 150, 50);
 }
 
 /* Reset and base styles */
 * {
-	padding: 0;
-	margin: 0;
-	/* border не рекомендуется сбрасывать глобально */
+  padding: 0;
+  margin: 0;
+  /* border не рекомендуется сбрасывать глобально */
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Links */
@@ -71,8 +67,8 @@ a,
 a:link,
 a:visited,
 a:hover {
-	text-decoration: none;
-	cursor: pointer; /* добавлено для интерактивности */
+  text-decoration: none;
+  cursor: pointer; /* добавлено для интерактивности */
 }
 
 /* Common */
@@ -82,7 +78,7 @@ footer,
 header,
 section,
 main {
-	display: block;
+  display: block;
 }
 
 h1,
@@ -92,33 +88,33 @@ h4,
 h5,
 h6,
 p {
-	font-size: inherit; /* можно задать конкретные размеры при необходимости */
-	font-weight: inherit;
+  font-size: inherit; /* можно задать конкретные размеры при необходимости */
+  font-weight: inherit;
 }
 
 ul,
 ol {
-	list-style: none;
+  list-style: none;
 }
 
 li {
-	list-style-type: none; /* если нужно убрать маркеры у li */
+  list-style-type: none; /* если нужно убрать маркеры у li */
 }
 
 img {
-	vertical-align: top;
-	max-width: 100%;
-	height: auto;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
 }
 
 svg {
-	max-width: 100%;
-	height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Address */
 address {
-	font-style: normal;
+  font-style: normal;
 }
 
 /* Form styles */
@@ -126,92 +122,129 @@ input,
 textarea,
 button,
 select {
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background-color: transparent; /* можно оставить или задать по умолчанию */
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent; /* можно оставить или задать по умолчанию */
 }
 
 input::-ms-clear {
-	display: none; /* скрывает крестик в IE/Edge */
+  display: none; /* скрывает крестик в IE/Edge */
 }
 
 button,
-input[type='submit'] {
-	display: inline-block; /* можно оставить или использовать inline-flex/inline-grid при необходимости */
-	box-shadow: none; /* убирает тень у кнопок в некоторых браузерах */
-	background: none; /* убирает фон по умолчанию */
-	cursor: pointer; /* добавлено для интерактивности */
+input[type=submit] {
+  display: inline-block; /* можно оставить или использовать inline-flex/inline-grid при необходимости */
+  box-shadow: none; /* убирает тень у кнопок в некоторых браузерах */
+  background: none; /* убирает фон по умолчанию */
+  cursor: pointer; /* добавлено для интерактивности */
 }
 
-input[type='file'] {
-	max-width: 100%;
+input[type=file] {
+  max-width: 100%;
 }
 
 /* Фокус и активное состояние формы */
-input[type='text']:focus,
-textarea[type='text']:focus,
-button[type='button']:focus,
+input[type=text]:focus,
+textarea[type=text]:focus,
+button[type=button]:focus,
 select:focus {
-	outline: none; /* можно добавить стили фокуса для доступности */
+  outline: none; /* можно добавить стили фокуса для доступности */
 }
 
-.page {
-	max-width: 1440px;
-	margin: 0 auto;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.fixed {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.displayInline {
+  display: inline;
 }
 
 .visually-hidden {
-	position: absolute !important;
-	width: 1px !important;
-	height: 1px !important;
-	margin: -1px !important;
-	border: 0 !important;
-	padding: 0 !important;
-	white-space: nowrap !important;
-	clip-path: inset(100%) !important;
-	clip: rect(0 0 0 0) !important;
-	overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  border: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  clip-path: inset(100%) !important;
+  clip: rect(0 0 0 0) !important;
+  overflow: hidden !important;
 }
 
 @media (width <= 767.98px) {
-	.hidden-mobile {
-		display: none !important;
-	}
+  .hidden-mobile {
+    display: none !important;
+  }
 }
 
 @media (width > 767.98px) {
-	.visible-mobile {
-		display: none !important;
-	}
+  .visible-mobile {
+    display: none !important;
+  }
 }
 
-.header {
-	background-image: url(../../images/Rectangle-defoult.svg);
-	background-repeat: no-repeat;
-	background-size: auto;
-}
 .header__inner {
-	background-color: var(--color-opacity-white);
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 26px 45px 26px 45px;
+  background-color: var(--color-turquoise);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 45px 26px 45px;
 }
 .header__menu-list {
-	display: flex;
-	align-items: center;
-	column-gap: 40px;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
 }
 .header__menu-item {
-	display: inline;
+  display: inline;
 }
 .header__menu-link {
-	font-size: 14px;
-	color: var(--color-black);
+  font-size: 14px;
+  color: var(--color-black);
 }
 .header__menu-link:hover {
-	text-decoration: underline;
+  text-decoration: underline;
+}
+
+.hero__main {
+  background-image: url(../../images/Rectangle-defoult.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.hero__body {
+  padding: 180px 0px 360px 115px;
+}
+.hero__title {
+  color: var(--color-white);
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 59.95px;
+}
+.hero__description {
+  color: var(--color-white);
+  padding-top: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero__button {
+  height: 48px;
+  width: 256px;
+  margin-top: 25px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */
