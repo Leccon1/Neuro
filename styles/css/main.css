@@ -210,6 +210,7 @@ select:focus {
 .header__menu-link {
   font-size: 14px;
   color: var(--color-black);
+  text-transform: uppercase;
 }
 .header__menu-link:hover {
   text-decoration: underline;
@@ -245,6 +246,47 @@ select:focus {
   text-align: center;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 2px;
+}
+
+.cookies {
+  position: relative;
+  bottom: 123px;
+  width: 1440px;
+  height: 72px;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+}
+.cookies__text {
+  display: inline;
+  color: var(--color-white);
+  padding-left: 29px;
+  margin: 0;
+  font-style: 16px;
+  line-height: 24px;
+}
+.cookies__text-link {
+  padding-left: 19px;
+  color: var(--color-white);
+}
+.cookies__text-link:hover {
+  text-decoration: underline;
+}
+.cookies__button {
+  height: 40px;
+  width: 167px;
+  position: absolute;
+  right: 29px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.spacer {
+  position: relative;
+  bottom: 2px;
+  height: 189px;
+  background-color: var(--color-smoky-white);
 }
 
 /*# sourceMappingURL=main.css.map */
