@@ -259,7 +259,6 @@ select:focus {
 }
 
 .section__body {
-  background-color: var(--color-white);
   display: flex;
   justify-content: center;
 }
@@ -282,6 +281,10 @@ select:focus {
 }
 .section__gif {
   padding-top: 14px;
+}
+
+.section-wrapper {
+  background-color: var(--color-white);
 }
 
 /*# sourceMappingURL=main.css.map */
