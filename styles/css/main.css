@@ -4,6 +4,10 @@ body {
   font-family: Roboto;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 a {
   text-decoration: none;
 }
@@ -82,7 +86,6 @@ main {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -158,9 +161,9 @@ select:focus {
 }
 
 .fixed {
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  position: fixed; /* фиксирует элемент относительно окна */
+  width: 100%; /* растянуть по всей ширине */
+  z-index: 1000;
 }
 
 .displayInline {
@@ -253,6 +256,32 @@ select:focus {
   bottom: 2px;
   height: 189px;
   background-color: var(--color-smoky-white);
+}
+
+.section__body {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
+}
+.section__header {
+  height: 570px;
+  width: 650px;
+  padding-top: 40px;
+}
+.section__header-inner {
+  text-align: center;
+  padding-top: 79px;
+}
+.section__title {
+  padding-bottom: 25px;
+}
+.section__suptitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31.2px;
+}
+.section__gif {
+  padding-top: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+@use '../helpers/' as *;
+
+.section {
+	&__body {
+		background-color: var(--color-white);
+		display: flex;
+		justify-content: center;
+	}
+
+	&__header {
+		@include rectangle(650px, 570px);
+		padding-top: 40px;
+
+		&-inner {
+			text-align: center;
+			padding-top: 79px;
+		}
+	}
+
+	&__title {
+		padding-bottom: 25px;
+	}
+
+	&__suptitle {
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 31.2px;
+	}
+
+	&__gif {
+		padding-top: 14px;
+	}
+}

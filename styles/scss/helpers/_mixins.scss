@@ -12,7 +12,7 @@
 }
 
 @mixin abs-center {
-	position: absolute;
+	position: absolute; 
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
@@ -23,7 +23,7 @@
 	height: $size;
 }
 
-@mixin rectangle($width: 100px, $height: 50px) {
+@mixin rectangle  ($width: 100px, $height: 50px) {
 	height: $height;
 	width: $width;
 }
