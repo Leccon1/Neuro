@@ -253,35 +253,34 @@ select:focus {
 
 .spacer {
   position: relative;
-  bottom: 2px;
   height: 189px;
   background-color: var(--color-smoky-white);
 }
 
-.section-inner {
+.mental-game-inner {
   display: flex;
   justify-content: center;
 }
-.section__main {
+.mental-game__main {
   background-color: var(--color-white);
-  width: 650px;
-}
-.section__main-inner {
   display: grid;
   place-items: center;
+}
+.mental-game__main-inner {
+  width: 650px;
   padding-top: 40px;
   padding-bottom: 49px;
 }
-.section__header-inner {
+.mental-game__header-inner {
   text-align: center;
   padding-top: 79px;
   padding-bottom: 14px;
 }
-.section__title {
+.mental-game__title {
   font-weight: 700;
   line-height: 45.6px;
 }
-.section__suptitle {
+.mental-game__suptitle {
   padding-top: 25px;
   font-size: 20px;
   font-weight: 400;
