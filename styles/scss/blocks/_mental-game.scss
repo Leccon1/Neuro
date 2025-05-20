@@ -1,16 +1,7 @@
 @use '../helpers/' as *;
 
 .mental-game {
-	&-inner {
-		display: flex;
-		justify-content: center;
-	}
-
 	&__main {
-		background-color: var(--color-white);
-		display: grid;
-		place-items: center;
-
 		&-inner {
 			width: 650px;
 			padding-top: 40px;

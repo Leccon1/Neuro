@@ -1,5 +1,7 @@
 @use '../helpers/' as *;
 
 .section-wrapper {
+  display: grid;
+  place-items: center;
 	background-color: var(--color-white);
 }

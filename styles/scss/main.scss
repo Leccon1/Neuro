@@ -4,8 +4,10 @@
 @use 'normalize';
 @use 'utilities';
 
-@use 'blocks/header.scss';
-@use 'blocks/hero.scss';
-@use 'blocks/spacer.scss';
-@use 'blocks/mental-game.scss';
-@use 'blocks/section-wrapper.scss';
+@use './blocks/header';
+@use './blocks/hero';
+@use './blocks/spacer';
+@use './blocks/mental-game';
+@use './blocks/section-wrapper';
+@use './blocks/function-shop';
+@use './blocks/function-shop-row';

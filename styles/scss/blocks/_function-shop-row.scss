@@ -1,0 +1,44 @@
+@use '../helpers/' as *;
+
+.function-shop {
+	&__row {
+		@include rectangle(918px, 250px);
+
+		display: flex;
+		gap: 24px;
+	}
+	&__column {
+		@include rectangle(290px, 250px);
+
+		text-align: center;
+	}
+}
+.item-function-shop {
+	&__icon {
+		padding-top: 40px;
+		padding-bottom: 37px;
+	}
+	&__text {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 16.1px;
+		text-transform: uppercase;
+	}
+	&__button {
+		@include rectangle(182px, 36px);
+
+		border: 2px solid rgb(0, 0, 0);
+		background: rgb(255, 255, 255);
+		color: var(--color-black);
+		margin: 42px 54px;
+
+		&-inner {
+      padding: 8px 58px;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 16px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+	}
+}

@@ -6,6 +6,7 @@ body {
 
 h2 {
   font-size: 40px;
+  line-height: 45.6px;
 }
 
 a {
@@ -249,6 +250,7 @@ select:focus {
   text-align: center;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 2px;
+  text-transform: uppercase;
 }
 
 .spacer {
@@ -257,15 +259,6 @@ select:focus {
   background-color: var(--color-smoky-white);
 }
 
-.mental-game-inner {
-  display: flex;
-  justify-content: center;
-}
-.mental-game__main {
-  background-color: var(--color-white);
-  display: grid;
-  place-items: center;
-}
 .mental-game__main-inner {
   width: 650px;
   padding-top: 40px;
@@ -288,7 +281,68 @@ select:focus {
 }
 
 .section-wrapper {
+  display: grid;
+  place-items: center;
   background-color: var(--color-white);
+}
+
+.function-shop__inner {
+  display: flex;
+  justify-content: center;
+}
+.function-shop__main-inner {
+  padding-bottom: 20px;
+}
+.function-shop__header-inner {
+  text-align: center;
+}
+.function-shop__title {
+  padding-bottom: 20px;
+}
+.function-shop__suptitle {
+  padding-bottom: 47px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+}
+
+.function-shop__row {
+  height: 250px;
+  width: 918px;
+  display: flex;
+  gap: 24px;
+}
+.function-shop__column {
+  height: 250px;
+  width: 290px;
+  text-align: center;
+}
+
+.item-function-shop__icon {
+  padding-top: 40px;
+  padding-bottom: 37px;
+}
+.item-function-shop__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.1px;
+  text-transform: uppercase;
+}
+.item-function-shop__button {
+  height: 36px;
+  width: 182px;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: var(--color-black);
+  margin: 42px 54px;
+}
+.item-function-shop__button-inner {
+  padding: 8px 58px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */
