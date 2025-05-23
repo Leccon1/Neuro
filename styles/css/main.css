@@ -161,6 +161,48 @@ select:focus {
   margin: 0 auto;
 }
 
+.section-header-button {
+  height: 52px;
+  width: 260px;
+  border-radius: 2px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14.84px;
+  letter-spacing: 0%;
+}
+
+.color-btn {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.suptitle {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.titleBig {
+  font-family: Roboto;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 62.7px;
+  letter-spacing: 0%;
+}
+
+.titleSmall {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45.6px;
+  letter-spacing: 0%;
+}
+
 .fixed {
   position: fixed; /* фиксирует элемент относительно окна */
   width: 100%; /* растянуть по всей ширине */
@@ -284,6 +326,7 @@ select:focus {
   display: grid;
   place-items: center;
   background-color: var(--color-white);
+  padding-bottom: 180px;
 }
 
 .function-shop__inner {
@@ -343,6 +386,56 @@ select:focus {
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.energy-focus__body {
+  background-color: var(--color-azure-blue);
+  height: 1051px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.energy-focus__header {
+  color: var(--color-white);
+  padding-right: 94px;
+}
+.energy-focus__header-title {
+  margin-bottom: 25px;
+}
+.energy-focus__header-suptitle {
+  margin-bottom: 27px;
+}
+.energy-focus__header-btn {
+  border: 2px solid rgb(246, 249, 229);
+}
+.energy-focus__body-img {
+  position: relative;
+  top: 50px;
+  right: 60px;
+}
+.energy-focus::before {
+  content: url("../../../images/icon/wave.svg");
+  position: absolute;
+}
+
+.color-selector {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  margin-bottom: 37px;
+}
+.color-selector::after {
+  content: "Peppermint";
+  text-align: center;
+}
+
+.light-blue-btn {
+  background-color: var(--color-light-blue);
+}
+
+.red-btn {
+  background-color: var(--color-red);
 }
 
 /*# sourceMappingURL=main.css.map */

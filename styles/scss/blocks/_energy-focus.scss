@@ -1,0 +1,53 @@
+@use '../helpers/' as *;
+
+.energy-focus {
+	&__body {
+		background-color: var(--color-azure-blue);
+		height: 1051px;
+		display: flex;
+		align-items: center;
+		flex-direction: row-reverse;
+	}
+	&__header {
+		color: var(--color-white);
+		padding-right: 94px;
+	}
+	&__header-title {
+		margin-bottom: 25px;
+	}
+	&__header-suptitle {
+		margin-bottom: 27px;
+	}
+	&__header-btn {
+		border: 2px solid rgb(246, 249, 229);
+	}
+	&__body-img {
+		position: relative;
+		top: 50px;
+		right: 60px;
+	}
+
+	&::before {
+		content: url('../../../images/icon/wave.svg');
+		position: absolute;
+	}
+}
+
+.color-selector {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding-left: 10px;
+	margin-bottom: 37px;
+
+	&::after {
+		content: 'Peppermint';
+		text-align: center;
+	}
+}
+.light-blue-btn {
+	background-color: var(--color-light-blue);
+}
+.red-btn {
+	background-color: var(--color-red);
+}
