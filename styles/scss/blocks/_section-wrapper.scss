@@ -1,8 +1,14 @@
 @use '../helpers/' as *;
 
 .section-wrapper {
+  position: relative;
   display: grid;
   place-items: center;
 	background-color: var(--color-white);
   padding-bottom: 180px;
+
+  &-wave {
+    position: absolute;
+    bottom: 0;
+  }
 }

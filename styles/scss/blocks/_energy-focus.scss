@@ -23,13 +23,12 @@
 	}
 	&__body-img {
 		position: relative;
-		top: 50px;
+		bottom: 125px;
 		right: 60px;
 	}
-
-	&::before {
-		content: url('../../../images/icon/wave.svg');
+	&-wave {
 		position: absolute;
+		transform: rotate(180deg);
 	}
 }
 

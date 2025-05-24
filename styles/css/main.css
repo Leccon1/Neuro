@@ -323,10 +323,15 @@ select:focus {
 }
 
 .section-wrapper {
+  position: relative;
   display: grid;
   place-items: center;
   background-color: var(--color-white);
   padding-bottom: 180px;
+}
+.section-wrapper-wave {
+  position: absolute;
+  bottom: 0;
 }
 
 .function-shop__inner {
@@ -410,12 +415,12 @@ select:focus {
 }
 .energy-focus__body-img {
   position: relative;
-  top: 50px;
+  bottom: 125px;
   right: 60px;
 }
-.energy-focus::before {
-  content: url("../../../images/icon/wave.svg");
+.energy-focus-wave {
   position: absolute;
+  transform: rotate(180deg);
 }
 
 .color-selector {
@@ -436,6 +441,47 @@ select:focus {
 
 .red-btn {
   background-color: var(--color-red);
+}
+
+.calm-clarity__body {
+  background-color: var(--color-wheat);
+  height: 1051px;
+  display: flex;
+  align-items: center;
+}
+.calm-clarity__body-img {
+  position: relative;
+  left: 60px;
+}
+.calm-clarity__header {
+  color: var(--color-orange);
+  padding-left: 94px;
+}
+.calm-clarity__header-title {
+  margin-bottom: 25px;
+}
+.calm-clarity__header-suptitle {
+  margin-bottom: 27px;
+}
+.calm-clarity__header-btn {
+  border: 2px solid rgb(196, 123, 89);
+}
+.calm-clarity .color-selector {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  margin-bottom: 37px;
+}
+.calm-clarity .color-selector::after {
+  content: "Ginger Chai";
+  text-align: center;
+}
+.calm-clarity .orange-btn {
+  background-color: var(--color-orange);
+}
+.calm-clarity .gold-btn {
+  background-color: var(--color-gold);
 }
 
 /*# sourceMappingURL=main.css.map */

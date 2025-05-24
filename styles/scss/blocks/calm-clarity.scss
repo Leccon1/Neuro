@@ -1,0 +1,48 @@
+@use '../helpers/' as *;
+
+.calm-clarity {
+	&__body {
+		background-color: var(--color-wheat);
+		height: 1051px;
+		display: flex;
+		align-items: center;
+
+		&-img {
+			position: relative;
+			left: 60px;
+		}
+	}
+	&__header {
+		color: var(--color-orange);
+		padding-left: 94px;
+	}
+	&__header-title {
+		margin-bottom: 25px;
+	}
+	&__header-suptitle {
+		margin-bottom: 27px;
+	}
+	&__header-btn {
+		border: 2px solid rgb(196, 123, 89);
+	}
+
+	.color-selector {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		padding-left: 10px;
+		margin-bottom: 37px;
+
+		&::after {
+			content: 'Ginger Chai';
+			text-align: center;
+		}
+	}
+	.orange-btn {
+		background-color: var(--color-orange);
+	}
+
+	.gold-btn {
+		background-color: var(--color-gold);
+	}
+}
