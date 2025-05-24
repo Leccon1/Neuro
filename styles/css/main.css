@@ -161,14 +161,19 @@ select:focus {
   margin: 0 auto;
 }
 
+.header-title-padding-bottom {
+  padding-bottom: 25px;
+}
+
 .section-header-button {
   height: 52px;
   width: 260px;
   border-radius: 2px;
   text-align: center;
+  text-transform: uppercase;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 14.84px;
   letter-spacing: 0%;
 }
@@ -198,7 +203,7 @@ select:focus {
 .titleSmall {
   font-family: Roboto;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 45.6px;
   letter-spacing: 0%;
 }
@@ -404,9 +409,6 @@ select:focus {
   color: var(--color-white);
   padding-right: 94px;
 }
-.energy-focus__header-title {
-  margin-bottom: 25px;
-}
 .energy-focus__header-suptitle {
   margin-bottom: 27px;
 }
@@ -457,9 +459,6 @@ select:focus {
   color: var(--color-orange);
   padding-left: 94px;
 }
-.calm-clarity__header-title {
-  margin-bottom: 25px;
-}
 .calm-clarity__header-suptitle {
   margin-bottom: 27px;
 }
@@ -482,6 +481,41 @@ select:focus {
 }
 .calm-clarity .gold-btn {
   background-color: var(--color-gold);
+}
+
+.ideal-state__body {
+  height: 844px;
+  background-color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 160px;
+}
+.ideal-state__header-suptitle {
+  padding-bottom: 25px;
+}
+.ideal-state__header-btn {
+  border: 2px solid rgb(0, 0, 0);
+}
+.ideal-state__body-img {
+  padding-right: 50px;
+}
+
+.every-day__body {
+  background-color: var(--color-smoky-white);
+  height: 844px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 140px;
+}
+.every-day__header-suptitle {
+  padding-bottom: 25px;
+}
+.every-day__header-btn {
+  border: 2px solid rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=main.css.map */

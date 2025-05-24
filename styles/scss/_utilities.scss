@@ -5,13 +5,18 @@
 	margin: 0 auto;
 }
 
+.header-title-padding-bottom {
+  padding-bottom: 25px;
+}
+
 .section-header-button {
 	@include rectangle(260px, 52px);
 	border-radius: 2px;
 	text-align: center;
+	text-transform: uppercase;
 	font-family: Roboto;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 14.84px;
 	letter-spacing: 0%;
 }
@@ -40,7 +45,7 @@
 .titleSmall {
 	font-family: Roboto;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 45.6px;
 	letter-spacing: 0%;
 }

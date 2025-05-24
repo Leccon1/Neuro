@@ -1,0 +1,31 @@
+@use '../helpers/' as *;
+
+.every-day {
+	&__body {
+		background-color: var(--color-smoky-white);
+		height: 844px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row-reverse;
+		gap: 140px;
+	}
+	&__header-suptitle {
+		padding-bottom: 25px;
+	}
+	&__header-btn {
+		border: 2px solid rgb(0, 0, 0);
+	}
+	&__body-img {
+	}
+}
+.container {
+}
+.titleSmall {
+}
+.header-title-padding-bottom {
+}
+.suptitle {
+}
+.section-header-button {
+}
