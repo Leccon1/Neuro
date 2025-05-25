@@ -214,7 +214,7 @@ select:focus {
   text-transform: uppercase;
   font-family: Roboto;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 14.84px;
   letter-spacing: 0%;
 }
@@ -333,6 +333,7 @@ select:focus {
   height: 48px;
   width: 256px;
   margin-top: 25px;
+  font-weight: bold;
   background-color: var(--color-black);
   color: var(--color-white);
   text-align: center;
@@ -617,6 +618,21 @@ select:focus {
   padding-top: 120px;
   color: var(--color-black);
   text-align: center;
+}
+
+.mind-refresh__body {
+  background-image: url(../../../images/Rectangle-dark.svg);
+  height: 700px;
+}
+.mind-refresh__header {
+  color: var(--color-white);
+  padding: 180px 0px 0px 115px;
+}
+.mind-refresh__header-title {
+  padding-bottom: 30px;
+}
+.mind-refresh__header-btn {
+  background-color: var(--color-black);
 }
 
 /*# sourceMappingURL=main.css.map */

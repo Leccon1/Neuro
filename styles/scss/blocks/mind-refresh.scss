@@ -1,0 +1,18 @@
+@use '../helpers/' as *;
+
+.mind-refresh {
+	&__body {
+		background-image: url(../../../images/Rectangle-dark.svg);
+		height: 700px;
+	}
+	&__header {
+		color: var(--color-white);
+		padding: 180px 0px 0px 115px;
+	}
+	&__header-title {
+		padding-bottom: 30px;
+	}
+	&__header-btn {
+		background-color: var(--color-black);
+	}
+}
