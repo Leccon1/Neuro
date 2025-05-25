@@ -1,0 +1,26 @@
+@use '../helpers/' as *;
+
+.science-quote {
+	position: relative;
+	&__body {
+		background-color: var(--color-aqumarine);
+		height: 670px;
+		display: flex;
+		align-items: center;
+	}
+	&__header {
+		color: var(--color-white);
+		padding-left: 120px;
+	}
+	&__header-suptitle {
+		padding-bottom: 20px;
+	}
+	&__header-btn {
+		color: var(--color-dark-green);
+	}
+	&__body-img {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}

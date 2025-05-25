@@ -22,6 +22,14 @@ button {
   cursor: pointer;
 }
 
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Bold.woff2") format("woff2");
@@ -52,6 +60,7 @@ button {
   --color-dark-green: rgb(10, 100, 74);
   --color-orange: rgb(196, 123, 89);
   --color-gold: rgb(239, 150, 50);
+  --transition-duration: 0.4s;
 }
 
 /* Reset and base styles */
@@ -169,6 +178,28 @@ select:focus {
   font-size: 16px;
   font-weight: 400;
   line-height: 16.96px;
+}
+@media (any-hover: hover) {
+  .section-header-underline-button:hover::after {
+    transform: scaleX(140%);
+  }
+}
+@media (any-hover: none) {
+  .section-header-underline-button:active::after {
+    transform: scaleX(140%);
+  }
+}
+.section-header-underline-button::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  translate: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform-origin: left;
+  transition-duration: inherit;
 }
 
 .header-title-padding-bottom {
@@ -544,28 +575,6 @@ select:focus {
 .our-mission__header-suptitle {
   padding-bottom: 20px;
 }
-@media (any-hover: hover) {
-  .our-mission__header-btn:hover::after {
-    transform: scaleX(140%);
-  }
-}
-@media (any-hover: none) {
-  .our-mission__header-btn:active::after {
-    transform: scaleX(140%);
-  }
-}
-.our-mission__header-btn::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  translate: -50%;
-  width: 100%;
-  height: 2px;
-  background-color: currentColor;
-  transform-origin: left;
-  transition-duration: 0.3s;
-}
 .our-mission__body-img {
   position: absolute;
   left: 0;
@@ -573,6 +582,41 @@ select:focus {
 .our-mission-wave {
   position: absolute;
   bottom: 0;
+}
+
+.science-quote {
+  position: relative;
+}
+.science-quote__body {
+  background-color: var(--color-aqumarine);
+  height: 670px;
+  display: flex;
+  align-items: center;
+}
+.science-quote__header {
+  color: var(--color-white);
+  padding-left: 120px;
+}
+.science-quote__header-suptitle {
+  padding-bottom: 20px;
+}
+.science-quote__header-btn {
+  color: var(--color-dark-green);
+}
+.science-quote__body-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.neuro-community__body {
+  background-color: var(--color-white);
+  height: 380px;
+}
+.neuro-community__header {
+  padding-top: 120px;
+  color: var(--color-black);
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

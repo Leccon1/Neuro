@@ -22,3 +22,11 @@ button {
 	margin: 0;
 	cursor: pointer;
 }
+
+a,
+button,
+input,
+textarea,
+svg * {
+	transition-duration: var(--transition-duration);
+}

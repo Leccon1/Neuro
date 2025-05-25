@@ -1,0 +1,13 @@
+@use '../helpers/' as *;
+
+.neuro-community {
+	&__body {
+		background-color: var(--color-white);
+		height: 380px;
+	}
+	&__header {
+		padding-top: 120px;
+		color: var(--color-black);
+		text-align: center;
+	}
+}
